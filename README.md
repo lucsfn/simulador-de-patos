@@ -5,3 +5,7 @@
 - Bruno Xavier
 - Eduardo Versiani
 - Lucas Fernandes
+
+// TODO
+- Criar um menu que o usuário é capaz de selecionar o pato e realizar ações com ele
+- Pode ser Console Aplication ou Interface Gráfica
