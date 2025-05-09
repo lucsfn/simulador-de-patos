@@ -1,8 +1,8 @@
-﻿public class Program
+﻿class Program
 {
-    public static void Main()
+    static void Main(string[] args)
     {
-        // Exibe o menu inicial
-        Menu.displayInitialMenu();
+        GameView game = new GameView();
+        game.StartGame();
     }
 }

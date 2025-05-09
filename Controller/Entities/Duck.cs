@@ -1,9 +1,9 @@
 public abstract class Duck
 {
     protected string _name = string.Empty;
-    protected int _age;
+    protected int _age = 0;
     protected string _color = string.Empty;
-    protected double _size;
+    protected double _size = 0;
 
     public void setName(string name)
     {
@@ -69,14 +69,8 @@ public abstract class Duck
         setSize(size);
     }
 
-    public virtual void Swim()
-    {
-        Console.WriteLine($"{getName()} está nadando.");
-    }
-
     public virtual void Display()
     {
         Console.WriteLine($"Nome: {getName()}, Idade: {getAge()} anos, Cor: {getColor()}, Tamanho: {getSize()} centímetros.");
     }
-
 }

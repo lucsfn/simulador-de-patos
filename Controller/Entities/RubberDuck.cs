@@ -1,15 +1,17 @@
 public class RubberDuck : Duck, IQuackable
 {
-    public RubberDuck(string name, int age, string color, double size) : base(name, age, color, size)
-    {
-        setName(name);
-        setAge(age);
-        setColor(color);
-        setSize(size);
-    }
+    public RubberDuck(string name, int age, string color, double size) : base(name, age, color, size) { }
 
     public void Quack()
     {
-        Console.WriteLine($"O {getName()} está grasnando!");
+        Console.WriteLine($"\n🛁 {getName()} faz: Squeak! Squeak! como um patinho de borracha!");
+    }
+
+    // RubberDuck não implementa IFlyable porque não pode voar
+
+    public override void Display()
+    {
+        Console.WriteLine($"Eu sou um Pato de Borracha chamado {getName()}!");
+        base.Display();
     }
 }

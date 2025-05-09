@@ -1,20 +1,25 @@
 public class MallardDuck : Duck, IFlyable, IQuackable
 {
-    public MallardDuck(string name, int age, string color, double size) : base(name, age, color, size)
+    public MallardDuck(string name, int age, string color, double size) : base(name, age, color, size) { }
+
+    public void Quack()
     {
-        setName(name);
-        setAge(age);
-        setColor(color);
-        setSize(size);
+        Console.WriteLine($"\n🦆 {getName()} faz: Quack! Quack! de forma estridente!");
+    }
+
+    public bool CanFly()
+    {
+        return true;
     }
 
     public void Fly()
     {
-        Console.WriteLine($"O {getName()} está voando!");
+        Console.WriteLine($"\n🦅 {getName()} está voando majestosamente pelo ar!");
     }
 
-    public void Quack()
+    public override void Display()
     {
-        Console.WriteLine($"O {getName()} está grasnando!");
+        Console.WriteLine($"Eu sou um Marreco chamado {getName()}!");
+        base.Display();
     }
 }
