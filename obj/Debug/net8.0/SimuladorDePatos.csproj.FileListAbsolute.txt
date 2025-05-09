@@ -12,3 +12,4 @@ C:\Users\lucas\Desktop\workspace\code\3_periodo\poo\SimuladorDePatos\obj\Debug\n
 C:\Users\lucas\Desktop\workspace\code\3_periodo\poo\SimuladorDePatos\obj\Debug\net8.0\SimuladorDePatos.pdb
 C:\Users\lucas\Desktop\workspace\code\3_periodo\poo\SimuladorDePatos\obj\Debug\net8.0\SimuladorDePatos.genruntimeconfig.cache
 C:\Users\lucas\Desktop\workspace\code\3_periodo\poo\SimuladorDePatos\obj\Debug\net8.0\ref\SimuladorDePatos.dll
+C:\Users\lucas\Desktop\workspace\code\3_periodo\poo\SimuladorDePatos\obj\Debug\net8.0\SimuladorDePatos.sourcelink.json
