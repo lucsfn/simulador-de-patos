@@ -1,7 +1,12 @@
 public class RedHatDuck : Duck, IFlyable, IQuackable
 {
     public RedHatDuck(string name, int age, string color, double size) : base(name, age, color, size)
-    {}
+    {
+        setName(name);
+        setAge(age);
+        setColor(color);
+        setSize(size);
+    }
 
     public void Fly ()
     {

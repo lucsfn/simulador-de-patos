@@ -45,13 +45,13 @@ public static class Menu {
         switch (Option)
         {
             case "1":
-                Console.WriteLine("Você escolheu o Marreco!");
+                Console.WriteLine("O marreco pode voar e grasnar!");
                 break;
             case "2":
-                Console.WriteLine("Você escolheu o Pato de borracha!");
+                Console.WriteLine("O pato de borracha pode grasnar!");
                 break;
             case "3":
-                Console.WriteLine("Você escolheu o Pato de chapéu vermelho!");
+                Console.WriteLine("O pato de chapéu vermelho pode voar e grasnar!");
                 break;
             case "0":
                 displayInitialMenu();
@@ -63,17 +63,5 @@ public static class Menu {
         }
     }
 
-    public static void displayDuckDetails(string duckType)
-    {
-        // TODO implementar método para exibir detalhes do pato selecionado
-        Console.Clear();
-        Console.WriteLine("=========================\n");
-        Console.WriteLine($"Detalhes do {duckType}:\n");
-        Console.WriteLine("Descrição: Um pato muito especial!");
-        Console.WriteLine("Preço: R$ 10,00\n");
-        Console.WriteLine("=========================\n");
-        Console.WriteLine("Pressione qualquer tecla para voltar à lista de patos.");
-        Console.ReadKey();
-        displayDuckList();
-    }
+
 }
